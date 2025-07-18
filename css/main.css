@@ -73,7 +73,7 @@
     border: 2px dashed black;
 }
 
-/* regole main 1 parte di testo*/
+/* regole main 1 e 3 parte di testo*/
 .container-text1{
     background-color: white;
     display: flex;
@@ -96,4 +96,14 @@
     height: 80%;
     width: 25%;
     border: 2px dashed black;
+}
+
+/* regole main 2 parte di testo*/
+.container-text2{
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
 }
