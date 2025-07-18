@@ -4,3 +4,52 @@
     box-sizing: border-box;
     padding: 0px;
 }
+
+/* regole header parte 3 colonne */
+.container-header{
+    background-color: rgb(142, 201, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+}
+
+.logo{
+    background-color: orange;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70%;
+    width: 17%;
+    border: 3px dashed black;
+    margin-left: 250px;
+    padding-left: 7px;
+}
+
+
+.link{
+    background-color: orange;
+    height: 70%;
+    width: 50%;
+    border: 3px dashed black;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link li{
+    padding: 10px;
+}
+
+.login{
+    background-color: orange;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70%;
+    width: 17%;
+    border: 3px dashed black;
+    margin-right: 250px;
+    padding-right: 7px;
+}
