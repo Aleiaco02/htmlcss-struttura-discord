@@ -6,7 +6,7 @@
 }
 
 /* regole header parte 3 colonne */
-.container-header{
+.container-nav{
     background-color: rgb(142, 201, 255);
     display: flex;
     justify-content: center;
@@ -70,5 +70,30 @@
     display: flex;
     height: 80%;
     width: 50%;
+    border: 2px dashed black;
+}
+
+/* regole main 1 parte di testo*/
+.container-text1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.contenuto-grande{
+    background-color: rgb(18, 111, 250);
+    height: 80%;
+    width: 35%;
+    border: 2px dashed black;
+
+}
+
+.contenuto-piccolo{
+    background-color: rgb(243, 196, 246);
+    height: 80%;
+    width: 25%;
     border: 2px dashed black;
 }
