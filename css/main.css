@@ -107,3 +107,20 @@
     height: 400px;
     width: 100%;
 }
+
+/* regole main 4 parte di testo */
+.container-text4{
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    width: 100%;
+}
+
+.contenuto-unico{
+    background-color: rgb(9, 122, 1);
+    height: 90%;
+    width: 70%;
+    border: 2px dashed black;
+}
