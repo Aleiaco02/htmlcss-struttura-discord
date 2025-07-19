@@ -56,7 +56,7 @@
 
 /* regole parte di download */
 
-.conteiner-download{
+.container-download{
     background-color: blue;
     display: flex;
     justify-content: center;
@@ -126,7 +126,7 @@
 }
 
 /* regole footer parte info */
-.footer-info{
+.container-footer-info{
     background-color: rgb(50, 49, 49);
     display: flex;
     justify-content: center;
@@ -150,3 +150,36 @@
     border: 1px dashed rgb(239, 239, 239);
 }
 
+/* regole footer parte registrazione */
+.container-footer-registrati{
+    background-color: rgb(50, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.logo-registrati{
+    background-color: rgb(46, 247, 180);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: 70%;
+}
+
+#logo-2{
+    background-color: rgb(249, 126, 126);
+    border: 2px dashed black;
+    width: 6%;
+    padding-left: 10px;
+}
+
+#registrati{
+    background-color: rgb(249, 126, 126);
+    border: 2px dashed black;
+    width: 7%;
+} 
