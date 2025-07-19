@@ -124,3 +124,29 @@
     width: 70%;
     border: 2px dashed black;
 }
+
+/* regole footer parte info */
+.footer-info{
+    background-color: rgb(50, 49, 49);
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+#info-grande{
+    background-color: rgb(255, 133, 133);
+    height: 90%;
+    width: 22%;
+    margin-top: 10px;
+    border: 1px dashed black;
+}
+
+.info-piccole{
+    background-color: rgb(98, 247, 240);
+    height: 90%;
+    width: 12%;
+    margin-top: 10px;
+    border: 1px dashed rgb(239, 239, 239);
+}
+
